@@ -1,6 +1,6 @@
 ## 1. Prerequisites
 
-- You own **mypurchaseddomain.com** in Route 53 hosted zone.
+- You own **typage.fr** in Route 53 hosted zone.
 - Root AWS account (for simplicity) with IAM profile on laptop.
 
 ## 2. Networking
@@ -37,7 +37,7 @@ aws ec2 run-instances \
 
 ### TLS
 
-- AWS Certificate Manager → Request public cert `*.mypurchaseddomain.com`; validate via Route 53.
+- AWS Certificate Manager → Request public cert `*.typage.fr`; validate via Route 53.
 - Nginx terminates TLS with cert files pulled via ACM & `aws‑cli` cron.
 
 ## 4. Database (RDS MySQL)
