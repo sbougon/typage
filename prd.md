@@ -1,6 +1,6 @@
 ## 1. Purpose
 
-The **Family Summer Expense Sharing App** (working title: **SummerSplit**) is a lightweight mobile‑first web application that enables five families to log, track, and fairly split common summer holiday expenses. It targets casual, non‑technical users and must feel as simple as a shared spreadsheet—yet safer, faster, and nicer.
+The **Family Summer Expense Sharing App** (working title: **typageSplit**) is a lightweight mobile‑first web application that enables five families to log, track, and fairly split common summer holiday expenses. It targets casual, non‑technical users and must feel as simple as a shared spreadsheet—yet safer, faster, and nicer.
 
 ## 2. Goals & Success Metrics
 
@@ -15,12 +15,11 @@ The **Family Summer Expense Sharing App** (working title: **SummerSplit**) is a 
 ## 3. Personas
 
 - **Parent (Head of Family)** – logs expenses and attendance; wants clarity on what they owe.
-- **Teen / Child** – views totals, rarely adds expenses.
 - **Admin (Tech‑savvy parent)** – sets annual password, maintains DB.
 
 ## 4. User Stories (Happy Path)
 
-1. *As a parent*, I navigate to **mypurchaseddomain.com/2025** and enter the summer password to unlock the app.
+1. *As a parent*, I navigate to **typage.fr/2025** and enter the summer password to unlock the app.
 2. *I choose my family icon* and see two big buttons: **➕ Add Expense** / **📄 All Expenses**.
 3. *Adding an expense*: date defaulted to today, amount in €, tap a category icon (Sport / Sortie / Alimentation / Cadeau / Other) → **Save**.
 4. *Viewing expenses*: list filterable by family, date range, or category.
